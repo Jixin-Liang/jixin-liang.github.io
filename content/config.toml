@@ -1,19 +1,19 @@
 [site]
-title = "Jiale Liu"
-description = "PhD student at the University of Example."
+title = "Jixin Liang"
+description = "PhD student at the University of Manchester."
 favicon = "/favicon.svg"
 last_updated = "November 18, 2025"
 
 [author]
-name = "Jiale Liu"
+name = "Jixin Liang"
 title = "PhD Student"
-institution = "University of Example"
+institution = "University of Manchester"
 avatar = "/bio.jpg"
 
 [social]
 # Contact information (leave blank or delete to hide)
 
-email = "john.doe@example.com"
+email = "jixinliang.tech@gmail.com"
 location = "City, Country"
 location_url = "https://maps.google.com"
 location_details = [
