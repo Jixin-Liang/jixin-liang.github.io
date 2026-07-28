@@ -1,43 +1,43 @@
 # Jixin Liang
 
-[University of Manchester(UoM)](https://www.manchester.ac.uk/)
-[Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/en/)  
-[Shenzhen Institutes of Advanced Technology (SIAT), Chinese Academy of Sciences](https://english.siat.ac.cn/)
-[Southeast University(SEU)](https://www.seu.edu.cn/english/)
+
+  
+
+
 
 ## 🎓 Educational Background
 
-**University of Manchester** 
+**[University of Manchester(UoM)](https://www.manchester.ac.uk/)** 
 *Sep. 2026 – Present*  
 *Doctor of Philosophy in **Electrical and Electronic Engineering.***  
 Manchester, UK  
 **Research focus:** *Dynamic 3D Visual Guidance for Physical Human-Robot Interaction*  
 **Supervisor:** [Dr. Zhenhong Li](https://scholar.google.com/citations?user=TxurO5wAAAAJ), [Prof. Andrew Weightman](https://scholar.google.com/citations?user=ntgRzlYAAAAJ) and [Prof. Monty Silverdale](https://scholar.google.com/citations?user=Bp9ldq0AAAAJ).
 
-**Southern University of Science and Technology** 
+**[Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/en/)** 
 *Sep. 2022 – Jun. 2025*  
-*Master of Engineering in **Electronic Science and Technology** jointly trained at SIAT.*  
+*Master of Engineering in **Electronic Science and Technology** jointly trained at [Shenzhen Institutes of Advanced Technology (SIAT), Chinese Academy of Sciences](https://english.siat.ac.cn/).*  
 Shenzhen, China  
 **Dissertation:** *Research on Structured Light 3D Perception Method for Robot Intelligent Manufacturing.*  
 **Supervisor:** [Prof. Zhan Song](https://people.ucas.edu.cn/~zsong?language=en) (SIAT)
 
 ---
 
-**Southeast University** 
+**[Southeast University(SEU)](https://www.seu.edu.cn/english/)** 
 *Sep. 2017 – Jun. 2021*  
 *Bachelor of Engineering in **Energy and Power Engineering.***  
 Nanjing, China
 
 ## 🏅 Honors and Awards
 
-### [H] University/Institution Awards
+### Honors
 - **Outstanding Graduate Student of SUSTech – Representative of Faculty** (Total 13 in SUSTech) – *2023*
 - Outstanding Graduate Student of SUSTech – *2024*
 - SIAT Talent Park – Student Talent Under Training (Total 20 in SIAT) – *2024*
 - **Outstanding Master's Graduate of SUSTech** – *2025*
 - **Outstanding Master's Dissertation of SUSTech** (Total 44 in SUSTech) – *2025*
 
-### [A] Scholarships
+### Awards
 - SIAT Dean's Scholarship – Excellence Award (5% in SIAT) – *2022*
 - **National Scholarship** (1% in China, the Highest Student Honor) – *2023*
 - Director's Innovation Scholarship – Outstanding Graduate Student (5% in Department) – *2023*

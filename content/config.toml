@@ -1,7 +1,7 @@
 [site]
 title = "Jixin Liang"
 description = "PhD student at the University of Manchester."
-favicon = "/L.svg"
+favicon = "/favicon.svg"
 last_updated = "July 28, 2026"
 
 [author]
@@ -17,7 +17,7 @@ email = "jixinliang.tech@gmail.com"
 location = "Manchester, UK"
 location_url = "https://maps.google.com"
 location_details = [
-  "Neurorobotics Lab, The University of Manchester,",
+  "The University of Manchester,",
   "Oxford Road, Manchester, UK"
 ]
 google_scholar = "https://scholar.google.com/citations?user=cU_VjScAAAAJ"
@@ -32,7 +32,7 @@ enable_likes = true
 enable_one_page_mode = false
 
 [i18n]
-enabled = true
+enabled = false
 locales = ["zh", "en"]
 default_locale = "en"
 # "auto" means the locale will be determined by the browser's language setting, "fixed" means the locale will be fixed to the default locale (but can be switched still, if you want to disable, set "enable=false")
@@ -41,7 +41,7 @@ fixed_locale = "en"
 # If true, PRISM will remember user's language preference in browser's localStorage
 persist = true
 # Show a language switcher on the top right corner
-switcher = true
+switcher = false
 
 [i18n.labels]
 zh = "中文"
@@ -65,11 +65,11 @@ type = "page"
 target = "awards"
 href = "/awards"
 
-[[navigation]]
-title = "Services"
-type = "page"
-target = "services"
-href = "/services"
+# [[navigation]]
+# title = "Services"
+# type = "page"
+# target = "services"
+# href = "/services"
 
 [[navigation]]
 title = "CV"
