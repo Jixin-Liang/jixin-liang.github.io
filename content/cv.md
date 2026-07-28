@@ -1,34 +1,18 @@
-## Education
+# Jixin Liang
 
-**The University of Example**, PhD in Natural Science, *2025 - Present*
-- Research focus: Mathematical Principles of Natural Philosophy
-- Supervisor: Prof. Advisor One and Dr. Advisor Two
-
-**The University of Example**, BSc in Natural Science, *2021 - 2025*
-- Graduated with First Class Honours
-
-## Experience
-
-**Example Role**
-Company/Institution
-*2023 - 2024*
-- Description of key responsibilities and achievements.
-- Utilized skills to solve problems.
-
-## Skills
-
-- **Programming:** Python, C++, MATLAB, LaTeX
-- **Data Analysis:** Pandas, NumPy, SciPy
-- **Languages:** English (Native), French (Fluent)
-
-## Awards & Honors
-
-- **First Prize in Example Competition** - Committee of Example (*2024*)
-
-
----
+[University of Manchester(UoM)](https://www.manchester.ac.uk/)
+[Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/en/)  
+[Shenzhen Institutes of Advanced Technology (SIAT), Chinese Academy of Sciences](https://english.siat.ac.cn/)
+[Southeast University(SEU)](https://www.seu.edu.cn/english/)
 
 ## 🎓 Educational Background
+
+**University of Manchester** 
+*Sep. 2026 – Present*  
+*Doctor of Philosophy in **Electrical and Electronic Engineering.***  
+Manchester, UK  
+**Research focus:** *Dynamic 3D Visual Guidance for Physical Human-Robot Interaction*  
+**Supervisor:** [Dr. Zhenhong Li](https://scholar.google.com/citations?user=TxurO5wAAAAJ), [Prof. Andrew Weightman](https://scholar.google.com/citations?user=ntgRzlYAAAAJ) and [Prof. Monty Silverdale](https://scholar.google.com/citations?user=Bp9ldq0AAAAJ).
 
 **Southern University of Science and Technology** 
 *Sep. 2022 – Jun. 2025*  
@@ -55,7 +39,7 @@ Nanjing, China
 
 ### [A] Scholarships
 - SIAT Dean's Scholarship – Excellence Award (5% in SIAT) – *2022*
-- **National Scholarship** (0.2% in China, the Highest Student Honor) – *2023*
+- **National Scholarship** (1% in China, the Highest Student Honor) – *2023*
 - Director's Innovation Scholarship – Outstanding Graduate Student (5% in Department) – *2023*
 - SIAT Outstanding Graduate Student Scholarship – Second Prize (3% in SIAT) – *2024*
 
@@ -67,27 +51,27 @@ Nanjing, China
 
 ### Research on Robot 3D Visual Guidance
 
-1. **Precise Assembly Based on Hybrid Visual-Tactile Perception** (Leader)  
-   *Feb. 2024 – Present*  
+**Precise Assembly Based on Hybrid Visual-Tactile Perception**   
+   *Feb. 2024 – Oct. 2025*  
    - Employed 3D template matching and positional correction for initial visual localization.
    - Developed a non-contact online tool center update method to bridge visual and tactile perception.
    - Proposed a multi-stage stable assembly strategy combining exponential decay force transition, adaptive admittance control, and coarse-to-fine spiral search trajectories.
    - Achieved a success rate exceeding 95% in electronic interfaces assembly with tolerances below 0.1mm.
 
-2. **Visual Tracking for Sub-Millimeter Dynamic Targets** (Contributor)  
+**Visual Tracking for Sub-Millimeter Dynamic Targets**  
    *Dec. 2023 – May. 2024*  
    - Utilized an SL camera at 30Hz to dynamically recognize needle and thread using template matching.
    - Adjusted robot pose via needle-thread distance for dynamic tracking.
    - Achieved needle threading with diameter of 1mm through high-precision target recognition and tracking.  
    **Contributions:** Hand-eye Calibration, Background Filtering and Target Recognition.
 
-3. **Automated Laser-Assisted 3D Measurement of Featureless Surfaces** (Leader)  
+**Automated Laser-Assisted 3D Measurement of Featureless Surfaces**  
    *Oct. 2023 – May. 2024*  
    - Guided a robotic arm with an SL system to scan large featureless surfaces using actively projected grids; extracted sub-pixel grid points using cross-symmetry properties.
    - Employed feature selector and filter-based optimization for local registration with noise suppression.
    - Accomplished surface stitching with a deviation of 0.03 mm using graph-optimized global registration.
 
-4. **Triaxial Robot Grasping System for Metal Components** (Leader)  
+**Triaxial Robot Grasping System for Metal Components**  
    *May. 2023 – Aug. 2023*  
    - Developed an optimization-based hand-eye calibration method for non-orthogonal triaxial robot.
    - Trained and deployed U-Net models to recognize highly reflective metal components in texture maps.
@@ -95,14 +79,14 @@ Nanjing, China
 
 ### Research on Structured Light 3D Reconstruction
 
-1. **Turbid Underwater Structured Light Reconstruction** (Contributor)  
+**Turbid Underwater Structured Light Reconstruction**   
    *Mar. 2024 – Dec. 2024*  
    - Conducted a 4-channel polarized SL system to capture pattern images at four polarization angles.
    - Computed Stokes and degree of polarization images to reflect contour information.
    - Developed a boundary enhancement network, enabling 3D reconstruction under turbid water.  
    **Contributions:** SL System Construction, Dataset Computation Methods and Network Deployment.
 
-2. **Polarized Structured Light System for High-reflective Surfaces** (Leader)  
+**Polarized Structured Light System for High-reflective Surfaces**  
    *Nov. 2022 – Mar. 2023*  
    - Designed an SL system with a 4-channel polarization camera and a polarizer-equipped projector to capture four sets of patterns with varying brightness.
    - Employed binary time-coded reconstruction to generate four point clouds.
@@ -116,4 +100,4 @@ Nanjing, China
 - **Reviewing Activities:** Machine Vision and Applications, Scientific Reports, International Journal of Intelligent Robotics and Applications, IEEE ROBIO 2023, IEEE IROS 2026, The Visual Computer.
 - **Software:** SolidWorks (System Modeling & Design for 3D Printing), MeshLab & Geomagic Wrap (Point Cloud Processing & Measurement Analysis), Qt (Software Interface Design).
 - **Engineering Capability:** SL 3D Camera Establishment, Hand-Eye Calibration, Robotic Arm Control, Point Cloud Processing (Registration, Segmentation, etc.), Image Processing (OpenCV, U-Net, YOLO, etc.).
-- **Languages:** Chinese (Native), English (IELTs 7.0).
+- **Languages:** Chinese (Native), English (IELTs 7.0 L-7.0 R-8.0 W-6.5 S-6.0).
