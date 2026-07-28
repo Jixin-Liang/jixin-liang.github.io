@@ -3,10 +3,16 @@ title = "Awards"
 description = "Honors and awards I have received."
 
 [[items]]
-title = "Outstanding Graduate Student - Representative of Faculty"
+title = "Outstanding Master's Graduate"
 subtitle = "Southern University of Science and Technology"
-date = "2023"
-content = "Total 13 in SUSTech"
+date = "2025"
+content = ""
+
+[[items]]
+title = "Outstanding Master's Dissertation"
+subtitle = "Southern University of Science and Technology"
+date = "2025"
+content = "Total 44 in SUSTech"
 
 [[items]]
 title = "Outstanding Graduate Student"
@@ -21,28 +27,22 @@ date = "2024"
 content = "Total 20 in SIAT"
 
 [[items]]
-title = "Outstanding Master's Graduate"
-subtitle = "Southern University of Science and Technology"
-date = "2025"
-content = ""
-
-[[items]]
-title = "Outstanding Master's Dissertation"
-subtitle = "Southern University of Science and Technology"
-date = "2025"
-content = "Total 44 in SUSTech"
-
-[[items]]
-title = "Dean's Scholarship - Excellence Award"
+title = "Outstanding Graduate Student Scholarship - Second Prize"
 subtitle = "Shenzhen Institutes of Advanced Technology"
-date = "2022"
-content = "Top 5% in SIAT"
+date = "2024"
+content = "Top 3% in SIAT"
 
 [[items]]
-title = "National Scholarship for Master Student"
+title = "Outstanding Graduate Student - Representative of Faculty"
+subtitle = "Southern University of Science and Technology"
+date = "2023"
+content = "Total 13 in SUSTech"
+
+[[items]]
+title = "National Scholarship for Master Students"
 subtitle = "Ministry of Education of China"
 date = "2023"
-content = "0.2% in China, the Highest Student Honor"
+content = "Top 1% in China, the Highest Student Honor"
 
 [[items]]
 title = "Director's Innovation Scholarship - Outstanding Graduate Student"
@@ -51,9 +51,7 @@ date = "2023"
 content = "Top 5% in Department"
 
 [[items]]
-title = "Outstanding Graduate Student Scholarship - Second Prize"
+title = "Dean's Scholarship - Excellence Award"
 subtitle = "Shenzhen Institutes of Advanced Technology"
-date = "2024"
-content = "Top 3% in SIAT"
-
-
+date = "2022"
+content = "Top 5% in SIAT"

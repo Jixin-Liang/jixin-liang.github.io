@@ -23,7 +23,6 @@ location_details = [
 google_scholar = "https://scholar.google.com/citations?user=cU_VjScAAAAJ"
 orcid = "https://orcid.org/0009-0000-2556-4556"
 github = "https://github.com/Jixin-Liang"
-linkedin = "https://linkedin.com"
 
 [features]
 # Show a like button on the about page
