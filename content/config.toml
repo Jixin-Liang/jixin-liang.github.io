@@ -8,21 +8,21 @@ last_updated = "November 18, 2025"
 name = "Jixin Liang"
 title = "PhD Student"
 institution = "University of Manchester"
-avatar = "/bio.jpg"
+avatar = "/Photo.jpg" 
 
 [social]
 # Contact information (leave blank or delete to hide)
 
 email = "jixinliang.tech@gmail.com"
-location = "City, Country"
+location = "Manchester, UK"
 location_url = "https://maps.google.com"
 location_details = [
-  "Room 123, Science Building,",
-  "University Avenue, City, Country"
+  "Neurorobotics Lab, The University of Manchester,",
+  "Oxford Road, Manchester, UK"
 ]
-google_scholar = "https://scholar.google.com"
-orcid = "https://orcid.org"
-github = "https://github.com"
+google_scholar = "https://scholar.google.com/citations?user=cU_VjScAAAAJ"
+orcid = "https://orcid.org/0009-0000-2556-4556"
+github = "https://github.com/Jixin-Liang"
 linkedin = "https://linkedin.com"
 
 [features]
@@ -59,12 +59,6 @@ title = "Publications"
 type = "page"
 target = "publications"
 href = "/publications"
-
-[[navigation]]
-title = "Teaching"
-type = "page"
-target = "teaching"
-href = "/teaching"
 
 [[navigation]]
 title = "Awards"
