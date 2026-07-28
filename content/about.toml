@@ -25,5 +25,5 @@ limit = 5
 id = "news"
 type = "list"
 title = "News"
-source = "news.toml"
+source = "news.md"
 
