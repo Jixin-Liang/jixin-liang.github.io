@@ -1,8 +1,8 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import ReactMarkdown from 'react-markdown';
 import { useMessages } from '@/lib/i18n/useMessages';
-import ReactMarkdown from 'react-markdown';  // 新增
 
 export interface NewsItem {
     date: string;
@@ -29,20 +29,17 @@ export default function News({ items, title }: NewsProps) {
                 {items.map((item, index) => (
                     <div key={index} className="flex items-start space-x-3">
                         <span className="text-xs text-neutral-500 mt-1 w-16 flex-shrink-0">{item.date}</span>
-                        {/* 替换原来的 <p> 为 ReactMarkdown */}
                         <div className="text-sm text-neutral-700">
                             <ReactMarkdown
                                 components={{
-                                    // 自定义链接样式，并可指定 target="_blank"
-                                    a: ({ href, children }) => (
+                                    p: ({ children }) => <p className="mb-0">{children}</p>,
+                                    a: ({ ...props }) => (
                                         <a
-                                            href={href}
+                                            {...props}
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="text-blue-600 underline hover:text-blue-800"
-                                        >
-                                            {children}
-                                        </a>
+                                            className="text-accent font-medium transition-all duration-200 rounded hover:bg-accent/10 hover:shadow-sm"
+                                        />
                                     ),
                                 }}
                             >
