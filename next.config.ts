@@ -6,7 +6,10 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  /* config options here */
+  // 构建时注入当前时间，每次部署自动更新
+  env: {
+    NEXT_PUBLIC_BUILD_TIME: new Date().toISOString(),
+  },
   webpack: (config) => {
     config.module.rules.push({
       test: /\.bib$/,

@@ -21,12 +21,12 @@ Shenzhen, China
 **Dissertation:** *Research on Structured Light 3D Perception Method for Robot Intelligent Manufacturing.*  
 **Supervisor:** [Prof. Zhan Song](https://people.ucas.edu.cn/~zsong?language=en) (SIAT)
 
----
-
 **[Southeast University(SEU)](https://www.seu.edu.cn/english/)** 
 *Sep. 2017 – Jun. 2021*  
 *Bachelor of Engineering in **Energy and Power Engineering.***  
 Nanjing, China
+
+---
 
 ## 🏅 Honors and Awards
 
