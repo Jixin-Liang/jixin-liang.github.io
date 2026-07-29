@@ -4,7 +4,7 @@ content = "Accepting my **PhD Offer in Electrical and Electronic Engineering** f
 
 [[news]]
 date = "2026-03"
-content = "Received the **Funding Letter of "School of Engineering Scholarship"** from the University of Manchester."
+content = "Funding Letter Received – **School of Engineering Scholarship** from University of Manchester."
 
 [[news]]
 date = "2025-10"
