@@ -125,25 +125,8 @@ export default function RootLayout({
   const {
     navigationByLocale,
     siteTitleByLocale,
-    lastUpdatedByLocale: configLastUpdatedByLocale,
+    lastUpdatedByLocale,
   } = buildLocalizedConfigMaps(targetLocales);
-
-  // ========== 改动开始：自动部署时间 ==========
-  const buildTimeISO = process.env.NEXT_PUBLIC_BUILD_TIME; // 从 next.config.ts 注入
-  const autoLastUpdated = buildTimeISO
-    ? new Date(buildTimeISO).toLocaleDateString('en-US', {
-        year: 'numeric',
-        month: 'long',
-        day: 'numeric',
-      })
-    : undefined;
-
-  // 存在自动时间时，覆盖所有语言的 lastUpdated
-  const lastUpdated = autoLastUpdated ?? config.site.last_updated;
-  const lastUpdatedByLocale = autoLastUpdated
-    ? Object.fromEntries(targetLocales.map((locale) => [locale, autoLastUpdated]))
-    : configLastUpdatedByLocale;
-  // ========== 改动结束 ==========
 
   return (
     <html lang={runtimeI18n.defaultLocale} className="scroll-smooth" suppressHydrationWarning>
@@ -199,7 +182,7 @@ export default function RootLayout({
               {children}
             </main>
             <Footer
-              lastUpdated={lastUpdated}
+              lastUpdated={config.site.last_updated}
               lastUpdatedByLocale={lastUpdatedByLocale}
               defaultLocale={runtimeI18n.defaultLocale}
             />
