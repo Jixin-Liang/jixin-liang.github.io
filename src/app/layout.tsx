@@ -199,15 +199,17 @@ export default function RootLayout({
             {/* <main className="min-h-screen pt-16 lg:pt-20">
               {children}
             </main> */}
-            <main className="flex-1 pt-16 lg:pt-20">
+            <main className="flex-1 pt-16 lg:pt-20 pb-16">
               {/* 这里放 children，即页面内容 */}
               {children}
             </main>
+            <footer className="fixed bottom-0 left-0 w-full bg-background border-t border-border z-10">
             <Footer
               lastUpdated={lastUpdated}
               lastUpdatedByLocale={lastUpdatedByLocale}
               defaultLocale={runtimeI18n.defaultLocale}
             />
+            </footer>
           </LocaleProvider>
         </ThemeProvider>
       </body>
