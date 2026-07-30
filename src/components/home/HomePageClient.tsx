@@ -54,14 +54,9 @@ export default function HomePageClient({ dataByLocale, defaultLocale }: HomePage
   }
 
   return (
-    // <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 bg-background min-h-screen">
-    //   <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-    //     <div className="lg:col-span-1">
-    <div className="h-screen flex flex-col overflow-hidden bg-background">
-      {/* 主要内容区：flex-1 撑满剩余高度，内部 flex 行，禁止溢出 */}
-      <div className="w-full h-full flex overflow-hidden">
-        {/* 左侧 Profile：宽度 1/3，粘性定位，不滚动 */}
-        <div className="w-1/3 lg:w-1/3 flex-shrink-0 overflow-y-auto p-6 lg:p-8 sticky top-0 h-full">
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 bg-background min-h-screen">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+        <div className="lg:col-span-1 sticky">
           <Profile
             author={data.author}
             social={data.social}
@@ -70,9 +65,7 @@ export default function HomePageClient({ dataByLocale, defaultLocale }: HomePage
           />
         </div>
 
-        {/* <div className="lg:col-span-2 space-y-8"> */}
-        {/* 右侧内容：flex-1 自适应，独立滚动 */}
-        <div className="flex-1 overflow-y-auto p-6 lg:p-8 space-y-8">
+        <div className="lg:col-span-2 space-y-8">
           {data.pagesToShow.map((page) => (
             <section key={page.id} id={page.id} className="scroll-mt-24 space-y-8">
               {page.type === 'about' && page.sections.map((section: SectionConfig) => {
