@@ -1,7 +1,3 @@
-# Jixin Liang
-
----
-
 
 [[items]]
 title = "## 🎓 Educational Background"
