@@ -38,7 +38,7 @@ BEng in **Energy and Power Engineering** – Nanjing, China
 
 **Awards**  
 - SIAT Dean's Scholarship – Excellence Award (5% in SIAT) – *2022*  
-- **National Scholarship** (1% in China, highest student honor) – *2023*  
+- **National Scholarship for Master Students** (1% in China, highest student honor) – *2023*  
 - Director's Innovation Scholarship – Outstanding Graduate Student (5% in Department) – *2023*  
 - SIAT Outstanding Graduate Student Scholarship – Second Prize (3% in SIAT) – *2024*
 
