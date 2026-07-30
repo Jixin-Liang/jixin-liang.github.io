@@ -61,7 +61,7 @@ export default function HomePageClient({ dataByLocale, defaultLocale }: HomePage
       {/* 主要内容区：flex-1 撑满剩余高度，内部 flex 行，禁止溢出 */}
       <div className="w-full h-full flex overflow-hidden">
         {/* 左侧 Profile：宽度 1/3，粘性定位，不滚动 */}
-        <aside className="w-1/3 lg:w-1/3 flex-shrink-0 overflow-y-auto p-6 lg:p-8 sticky top-0 h-full">
+        <div className="w-1/3 lg:w-1/3 flex-shrink-0 overflow-y-auto p-6 lg:p-8 sticky top-0 h-full">
           <Profile
             author={data.author}
             social={data.social}
