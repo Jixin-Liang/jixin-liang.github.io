@@ -1,7 +1,9 @@
 'use client';
 
+import { useState, useEffect } from 'react';
 import { useLocaleStore } from '@/lib/stores/localeStore';
 import { useMessages } from '@/lib/i18n/useMessages';
+import { cn } from '@/lib/utils';
 
 interface FooterProps {
   lastUpdated?: string;
@@ -12,6 +14,16 @@ interface FooterProps {
 export default function Footer({ lastUpdated, lastUpdatedByLocale, defaultLocale = 'en' }: FooterProps) {
   const locale = useLocaleStore((state) => state.locale);
   const messages = useMessages();
+  const [scrolled, setScrolled] = useState(false);
+
+  // 监听滚动，阈值 20px（与 Navigation 一致）
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 20);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   const resolvedLastUpdated =
     lastUpdatedByLocale?.[locale] ||
@@ -20,7 +32,14 @@ export default function Footer({ lastUpdated, lastUpdatedByLocale, defaultLocale
     new Date().toLocaleDateString(locale || 'en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 
   return (
-    <footer className="border-t border-neutral-200/50 bg-neutral-50/50 dark:bg-neutral-900/50 dark:border-neutral-700/50">
+    <footer
+      className={cn(
+        'fixed bottom-0 left-0 right-0 z-10 transition-all duration-300 ease-out',
+        scrolled
+          ? 'bg-background/80 backdrop-blur-xl border-t border-neutral-200/50 shadow-lg'
+          : 'bg-transparent border-transparent'
+      )}
+    >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         <div className="flex flex-col sm:flex-row justify-between items-center gap-2">
           <p className="text-xs text-neutral-500">
