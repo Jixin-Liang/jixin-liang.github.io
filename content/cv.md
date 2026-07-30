@@ -2,15 +2,17 @@
 
 ---
 
-## 🎓 Educational Background
 
+[[items]]
+title = "## 🎓 Educational Background"
+subtitle = ""
+date = ""
+content = """
 **[University of Manchester (UoM)](https://www.manchester.ac.uk/)**  
 *Sep. 2026 – Present*  
 PhD in **Electrical and Electronic Engineering** – Manchester, UK  
 - **Research focus:** Dynamic 3D Visual Guidance for Physical Human-Robot Interaction  
 - **Supervisors:** [Dr. Zhenhong Li](https://scholar.google.com/citations?user=TxurO5wAAAAJ), [Prof. Andrew Weightman](https://scholar.google.com/citations?user=ntgRzlYAAAAJ), [Prof. Monty Silverdale](https://scholar.google.com/citations?user=Bp9ldq0AAAAJ)
-
----
 
 **[Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/en/)**  
 *Sep. 2022 – Jun. 2025*  
@@ -19,16 +21,18 @@ MEng in **Electronic Science and Technology** – Shenzhen, China
 - **Dissertation:** *Research on Structured Light 3D Perception Method for Robot Intelligent Manufacturing*  
 - **Supervisor:** [Prof. Zhan Song](https://people.ucas.edu.cn/~zsong?language=en)
 
----
-
 **[Southeast University (SEU)](https://www.seu.edu.cn/english/)**  
 *Sep. 2017 – Jun. 2021*  
 BEng in **Energy and Power Engineering** – Nanjing, China
 
----
+"""
 
-## 🏅 Honors & Awards
 
+[[items]]
+title = "## 🏅 Honors & Awards"
+subtitle = ""
+date = ""
+content = """
 **Honors**  
 - **Outstanding Graduate Student of SUSTech – Representative of Faculty** (13/SUSTech) – *2023*  
 - Outstanding Graduate Student of SUSTech – *2024*  
@@ -42,9 +46,12 @@ BEng in **Energy and Power Engineering** – Nanjing, China
 - Director's Innovation Scholarship – Outstanding Graduate Student (5% in Department) – *2023*  
 - SIAT Outstanding Graduate Student Scholarship – Second Prize (3% in SIAT) – *2024*
 
----
+"""
 
-## 💻 Research Experience
+
+
+
+<!-- ## 💻 Research Experience
 
 *All projects supervised by Prof. Zhan Song at the Machine Vision Research Center, SIAT.*
 
@@ -101,14 +108,24 @@ BEng in **Energy and Power Engineering** – Nanjing, China
 - Employed binary time‑coded reconstruction to generate four point clouds.  
 - Developed an HDR fusion algorithm to merge point clouds into a unified model.
 
----
+--- -->
 
-## ⚙️ Skills
-
+[[items]]
+title = "## ⚙️ Skills"
+subtitle = ""
+date = ""
+content = """
 - **Programming:** C++ (primary), Python (PyTorch), MATLAB, LaTeX.  
-- **Reviewing Activities:** *Machine Vision and Applications*, *Scientific Reports*, *International Journal of Intelligent Robotics and Applications*, IEEE ROBIO 2023, IEEE IROS 2026, *The Visual Computer*.  
-- **Software:** SolidWorks (system modelling & 3D printing design), MeshLab & Geomagic Wrap (point cloud processing & measurement analysis), Qt (software interface design).  
-- **Engineering Capability:** SL 3D camera establishment, hand‑eye calibration, robotic arm control, point cloud processing (registration, segmentation, etc.), image processing (OpenCV, U‑Net, YOLO, etc.).  
-- **Languages:** Chinese (native), English (IELTS 7.0).
+- **Software:**  
+  - SolidWorks (system modelling & 3D printing design)  
+  - MeshLab & Geomagic Wrap (point cloud processing & measurement analysis)  
+  - Qt (software interface design)  
+- **Engineering Capability:**  
+  - SL 3D Camera Establishment  
+  - Robotic Hand‑Eye System  
+  - 3D Point Cloud Processing (registration, segmentation, etc.)  
+  - 2D Image Processing (OpenCV, U‑Net, YOLO, etc.)  
+- **Languages:** Chinese (native), English (IELTS 7.0).  
+"""
 
----
+
