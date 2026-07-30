@@ -4,11 +4,20 @@ description = "Professional services and community involvement."
 
 [[items]]
 title = "Journal Reviewer"
-subtitle = [
-  "Machine Vision and Applications",
-  "Scientific Reports",
-  "International Journal of Intelligent Robotics and Applications",
-  "The Visual Computer"
-]
+subtitle = ""
 date = ""
-content = ""
+content = """
+- Machine Vision and Applications
+- Scientific Reports
+- International Journal of Intelligent Robotics and Applications
+- The Visual Computer
+"""
+
+[[items]]
+title = "Conference Reviewer"
+subtitle = ""
+date = ""
+content = """
+- IEEE IEEE International Conference on Robotics and Biomimetics (ROBIO) 2023
+- IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2026
+"""
