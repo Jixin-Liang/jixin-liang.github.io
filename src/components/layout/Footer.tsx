@@ -37,10 +37,9 @@ export default function Footer({ lastUpdated, lastUpdatedByLocale, defaultLocale
         scrolled
           ? 'bg-background/80 backdrop-blur-xl shadow-lg'
           : 'bg-background',  // 默认不透明
-        'h-14 lg:h-16 flex items-center'   // <-- 加上固定高度和垂直居中
       )}
     >
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
         <div className="flex flex-col sm:flex-row justify-between items-center gap-2">
           <p className="text-xs text-neutral-500">
             {messages.footer.lastUpdated}: {resolvedLastUpdated}
