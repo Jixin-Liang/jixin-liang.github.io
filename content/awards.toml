@@ -3,6 +3,12 @@ title = "Awards"
 description = "Honors and awards I have received."
 
 [[items]]
+title = "School of Engineering Scholarship"
+subtitle = "University of Manchester"
+date = "2026-2030"
+content = "Fully Funded PhD Studentship for 3.5 years"
+
+[[items]]
 title = "Outstanding Master's Graduate"
 subtitle = "Southern University of Science and Technology"
 date = "2025"
@@ -55,3 +61,4 @@ title = "Dean's Scholarship - Excellence Award"
 subtitle = "Shenzhen Institutes of Advanced Technology"
 date = "2022"
 content = "Top 5% in SIAT"
+
