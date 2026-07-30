@@ -54,12 +54,11 @@ export default function HomePageClient({ dataByLocale, defaultLocale }: HomePage
   }
 
   return (
-    // <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 bg-background min-h-screen">
-    //   <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-    //     <div className="lg:col-span-1">
-    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 bg-background h-full flex flex-col">
-      <div className="flex-1 flex gap-12 overflow-hidden">
-        <div className="w-1/3 lg:w-1/3 flex-shrink-0 overflow-y-auto top-0 h-full">
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 bg-background min-h-screen">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+        {/* <div className="lg:col-span-1"> */}
+        {/* 左侧：sticky 固定，self-start 防止拉伸，h-fit 自适应高度 */}
+        <div className="lg:col-span-1 sticky top-20 lg:top-24 self-start">
           <Profile
             author={data.author}
             social={data.social}
@@ -68,8 +67,7 @@ export default function HomePageClient({ dataByLocale, defaultLocale }: HomePage
           />
         </div>
 
-        {/* <div className="lg:col-span-2 space-y-8"> */}
-        <div className="flex-1 overflow-y-auto space-y-8 pr-2">
+        <div className="lg:col-span-2 space-y-8">
           {data.pagesToShow.map((page) => (
             <section key={page.id} id={page.id} className="scroll-mt-24 space-y-8">
               {page.type === 'about' && page.sections.map((section: SectionConfig) => {
