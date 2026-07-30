@@ -184,7 +184,9 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className="font-sans antialiased">
+      {/* <body className="font-sans antialiased"> */}
+        {/* body 改为 flex 列，占满视口，禁止滚动 */}
+      <body className="flex flex-col h-screen overflow-hidden font-sans antialiased">
         <ThemeProvider>
           <LocaleProvider config={runtimeI18n}>
             <Navigation
@@ -195,9 +197,14 @@ export default function RootLayout({
               itemsByLocale={navigationByLocale}
               siteTitleByLocale={siteTitleByLocale}
             />
-            <main className="min-h-screen pt-16 lg:pt-20">
+            {/* <main className="min-h-screen pt-16 lg:pt-20">
+              {children}
+            </main> */}
+             {/* main 占满剩余高度，自身禁止滚动（滚动交给内部组件） */}
+            <main className="flex-1 overflow-hidden pt-16 lg:pt-20">
               {children}
             </main>
+            {/* Footer 固定在底部，不随内容滚动 */}
             <Footer
               lastUpdated={lastUpdated}
               lastUpdatedByLocale={lastUpdatedByLocale}

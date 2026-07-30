@@ -51,17 +51,17 @@ title = "⚙️ Skills"
 subtitle = ""
 date = ""
 content = """
-- **Programming:** C++ (primary), Python (PyTorch), MATLAB, LaTeX.  
-- **Software:**  
-  - SolidWorks (system modelling & 3D printing design)  
-  - MeshLab & Geomagic Wrap (point cloud processing & measurement analysis)  
+**Programming:** C++ (primary), Python (PyTorch), MATLAB, LaTeX.  
+**Software:**  
+  - SolidWorks (System Modelling & 3D Printing Design)  
+  - MeshLab & Geomagic Wrap (Point Cloud Processing & Measurement Analysis)  
   - Qt (software interface design)  
-- **Engineering Capability:**  
+**Engineering Capability:**  
   - SL 3D Camera Establishment  
   - Robotic Hand‑Eye System  
-  - 3D Point Cloud Processing (registration, segmentation, etc.)  
+  - 3D Point Cloud Processing (Registration, Segmentation, etc.)  
   - 2D Image Processing (OpenCV, U‑Net, YOLO, etc.)  
-- **Languages:** Chinese (native), English (IELTS 7.0).  
+**Languages:** Chinese (native), English (IELTS 7.0).  
 """
 
 
