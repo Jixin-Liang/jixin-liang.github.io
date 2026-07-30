@@ -4,7 +4,7 @@
 
 ## 🎓 Educational Background
 
-**University of Manchester (UoM)**  
+**[University of Manchester (UoM)](https://www.manchester.ac.uk/)**  
 *Sep. 2026 – Present*  
 PhD in **Electrical and Electronic Engineering** – Manchester, UK  
 - **Research focus:** Dynamic 3D Visual Guidance for Physical Human-Robot Interaction  
@@ -12,16 +12,16 @@ PhD in **Electrical and Electronic Engineering** – Manchester, UK
 
 ---
 
-**Southern University of Science and Technology (SUSTech)**  
+**[Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/en/)**  
 *Sep. 2022 – Jun. 2025*  
 MEng in **Electronic Science and Technology** – Shenzhen, China  
-- Jointly trained at [Shenzhen Institutes of Advanced Technology (SIAT), CAS](https://english.siat.ac.cn/)  
+- Jointly trained at [Shenzhen Institutes of Advanced Technology (SIAT), Chinese Academy of Sciences](https://english.siat.ac.cn/)  
 - **Dissertation:** *Research on Structured Light 3D Perception Method for Robot Intelligent Manufacturing*  
 - **Supervisor:** [Prof. Zhan Song](https://people.ucas.edu.cn/~zsong?language=en)
 
 ---
 
-**Southeast University (SEU)**  
+**[Southeast University (SEU)](https://www.seu.edu.cn/english/)**  
 *Sep. 2017 – Jun. 2021*  
 BEng in **Energy and Power Engineering** – Nanjing, China
 

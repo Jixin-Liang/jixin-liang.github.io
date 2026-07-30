@@ -4,9 +4,11 @@ description = "Professional services and community involvement."
 
 [[items]]
 title = "Journal Reviewer"
-subtitle = "- Machine Vision and Applications"
-"- Scientific Reports"
-"- International Journal of Intelligent Robotics and Applications"
-"- The Visual Computer "
+subtitle = [
+  "Machine Vision and Applications",
+  "Scientific Reports",
+  "International Journal of Intelligent Robotics and Applications",
+  "The Visual Computer"
+]
 date = ""
 content = ""
