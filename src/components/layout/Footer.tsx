@@ -16,7 +16,6 @@ export default function Footer({ lastUpdated, lastUpdatedByLocale, defaultLocale
   const messages = useMessages();
   const [scrolled, setScrolled] = useState(false);
 
-  // 监听滚动，阈值 20px（与 Navigation 一致）
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 20);
@@ -34,13 +33,13 @@ export default function Footer({ lastUpdated, lastUpdatedByLocale, defaultLocale
   return (
     <footer
       className={cn(
-        'fixed bottom-0 left-0 right-0 z-10 transition-all duration-300 ease-out',
+        'fixed bottom-0 left-0 right-0 z-10 transition-all duration-300 ease-out border-t border-neutral-200/50',
         scrolled
-          ? 'bg-background/80 backdrop-blur-xl border-t border-neutral-200/50 shadow-lg'
-          : 'bg-transparent border-transparent'
+          ? 'bg-background/80 backdrop-blur-xl shadow-lg'
+          : 'bg-background'  // 默认不透明
       )}
     >
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
         <div className="flex flex-col sm:flex-row justify-between items-center gap-2">
           <p className="text-xs text-neutral-500">
             {messages.footer.lastUpdated}: {resolvedLastUpdated}

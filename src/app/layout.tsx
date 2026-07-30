@@ -195,7 +195,7 @@ export default function RootLayout({
               itemsByLocale={navigationByLocale}
               siteTitleByLocale={siteTitleByLocale}
             />
-            <main className="min-h-screen pt-16 lg:pt-20 pb-10">
+            <main className="min-h-screen pt-14 lg:pt-16 pb-12">
               {children}
             </main>
             <Footer
