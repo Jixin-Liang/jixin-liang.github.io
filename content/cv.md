@@ -7,7 +7,7 @@ content = """
 **[University of Manchester (UoM)](https://www.manchester.ac.uk/)**  
 *Sep. 2026 – Present*  
 PhD in **Electrical and Electronic Engineering** – Manchester, UK  
-- **Research focus:** Dynamic 3D Visual Guidance for Physical Human-Robot Interaction  
+- **Research focus:** Dynamic 3D Visual Guidance for Robots in Medical Applications
 - **Supervisors:** [Dr. Zhenhong Li](https://scholar.google.com/citations?user=TxurO5wAAAAJ), [Prof. Andrew Weightman](https://scholar.google.com/citations?user=ntgRzlYAAAAJ), [Prof. Monty Silverdale](https://scholar.google.com/citations?user=Bp9ldq0AAAAJ)
 
 **[Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/en/)**  

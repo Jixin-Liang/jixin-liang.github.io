@@ -2,4 +2,4 @@ I am a PhD student in **Electrical and Electronic Engineering** at the [Universi
 
 Prior to this, I received my Master degree in **Electronic Science and Technology** through the joint training program between [Southern University of Science and Technology(SUSTech)](https://www.sustech.edu.cn/en/) and [Shenzhen Institutes of Advanced Technology(SIAT)](https://english.siat.ac.cn/), supervised by [Prof. Zhan Song](https://people.ucas.edu.cn/~zsong?language=en); And I received my Bachelor degree in **Energy and Power Engineering** from [Southeast University(SEU)](https://www.seu.edu.cn/english/). 
 
-My current research focuses on **Dynamic 3D Visual Guidance for Physical Human-Robot Interaction**.
+My current research focuses on **Dynamic 3D Visual Guidance for Robots in Medical Applications**.
