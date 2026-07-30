@@ -201,7 +201,7 @@ export default function RootLayout({
               {children}
             </main> */}
              {/* main 占满剩余高度，自身禁止滚动（滚动交给内部组件） */}
-            <main className="flex-1 overflow-hidden pt-16 lg:pt-20">
+            <main className="flex-1 overflow-hidden pt-16 lg:pt-20 scrollbar-hidden">
               {children}
             </main>
             {/* Footer 固定在底部，不随内容滚动 */}

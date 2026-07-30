@@ -59,17 +59,17 @@ export default function HomePageClient({ dataByLocale, defaultLocale }: HomePage
     //     <div className="lg:col-span-1">
     <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 bg-background h-full flex flex-col">
       <div className="flex-1 flex gap-12 overflow-hidden">
-        <aside className="w-1/3 lg:w-1/3 flex-shrink-0 overflow-y-auto sticky top-0 h-full">
+        <div className="w-1/3 lg:w-1/3 flex-shrink-0 overflow-y-auto top-0 h-full">
           <Profile
             author={data.author}
             social={data.social}
             features={data.features}
             researchInterests={data.researchInterests}
           />
-        </aside>
+        </div>
 
         {/* <div className="lg:col-span-2 space-y-8"> */}
-        <div className="flex-1 overflow-y-auto space-y-8 pr-2 scrollbar-hidden">
+        <div className="flex-1 overflow-y-auto space-y-8 pr-2">
           {data.pagesToShow.map((page) => (
             <section key={page.id} id={page.id} className="scroll-mt-24 space-y-8">
               {page.type === 'about' && page.sections.map((section: SectionConfig) => {
