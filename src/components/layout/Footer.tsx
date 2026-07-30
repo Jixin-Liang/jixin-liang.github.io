@@ -36,7 +36,8 @@ export default function Footer({ lastUpdated, lastUpdatedByLocale, defaultLocale
         'fixed bottom-0 left-0 right-0 z-10 transition-all duration-300 ease-out border-t border-neutral-200/50',
         scrolled
           ? 'bg-background/80 backdrop-blur-xl shadow-lg'
-          : 'bg-background'  // 默认不透明
+          : 'bg-background',  // 默认不透明
+        'h-14 lg:h-16 flex items-center'   // <-- 加上固定高度和垂直居中
       )}
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
