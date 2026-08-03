@@ -33,7 +33,7 @@ export default function Footer({ lastUpdated, lastUpdatedByLocale, defaultLocale
   return (
     <footer
       className={cn(
-        'fixed bottom-0 left-0 right-0 z-10 transition-all duration-300 ease-out border-t border-neutral-200/50 shadow-md',
+        'fixed bottom-0 left-0 right-0 z-10 transition-all duration-300 ease-out border-t border-neutral-200/50 shadow-lg',
         scrolled
           ? 'bg-background/80 backdrop-blur-xl shadow-lg'  // 滚动时阴影更深
           : 'bg-background',
