@@ -58,7 +58,7 @@ export default function HomePageClient({ dataByLocale, defaultLocale }: HomePage
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
         {/* <div className="lg:col-span-1"> */}
         {/* 左侧：sticky 固定，self-start 防止拉伸，h-fit 自适应高度 */}
-        <div className="lg:col-span-1 sticky top-20 lg:top-24 self-start h-fit">
+        <div className="lg:col-span-1 top-20 lg:top-24 self-start h-fit">
           <Profile
             author={data.author}
             social={data.social}

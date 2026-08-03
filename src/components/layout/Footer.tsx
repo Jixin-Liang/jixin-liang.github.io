@@ -33,10 +33,10 @@ export default function Footer({ lastUpdated, lastUpdatedByLocale, defaultLocale
   return (
     <footer
       className={cn(
-        'fixed bottom-0 left-0 right-0 z-10 transition-all duration-300 ease-out border-t border-neutral-200/50',
+        'fixed bottom-0 left-0 right-0 z-10 transition-all duration-300 ease-out border-t border-neutral-200/50 shadow-md',
         scrolled
-          ? 'bg-background/80 backdrop-blur-xl shadow-lg'
-          : 'bg-background',  // 默认不透明
+          ? 'bg-background/80 backdrop-blur-xl shadow-lg'  // 滚动时阴影更深
+          : 'bg-background',
       )}
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">

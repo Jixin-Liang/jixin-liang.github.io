@@ -168,7 +168,7 @@ export default function Navigation({
             className={cn(
               'transition-all duration-300 ease-out',
               scrolled
-                ? 'bg-background/80 backdrop-blur-xl border-b border-neutral-200/50 shadow-lg'
+                ? 'bg-background/80 backdrop-blur-xl border-neutral-200/50 shadow-lg'
                 : 'bg-transparent'
             )}
           >
