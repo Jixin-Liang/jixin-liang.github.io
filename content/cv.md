@@ -6,21 +6,22 @@ date = ""
 content = """
 **[University of Manchester (UoM)](https://www.manchester.ac.uk/)**  
 *Sep. 2026 – Present*  
-PhD in **Electrical and Electronic Engineering** – Manchester, UK  
+PhD in **Electrical and Electronic Engineering** – Manchester, UK
+
 - **Research focus:** Dynamic 3D Visual Guidance for Robots in Medical Applications
-- **Supervisors:** [Dr. Zhenhong Li](https://scholar.google.com/citations?user=TxurO5wAAAAJ), [Prof. Andrew Weightman](https://scholar.google.com/citations?user=ntgRzlYAAAAJ), [Prof. Monty Silverdale](https://scholar.google.com/citations?user=Bp9ldq0AAAAJ)
+- **Supervisors:** [Dr. Zhenhong Li](https://scholar.google.com/citations?user=TxurO5wAAAAJ), [Prof. Andrew Weightman](https://scholar.google.com/citations?user=ntgRz1YAAAAJ), [Prof. Monty Silverdale](https://scholar.google.com/citations?user=Bp9ldq0AAAAJ)
 
 **[Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/en/)**  
 *Sep. 2022 – Jun. 2025*  
-MEng in **Electronic Science and Technology** – Shenzhen, China  
-- Jointly trained at [Shenzhen Institutes of Advanced Technology (SIAT), Chinese Academy of Sciences](https://english.siat.ac.cn/)  
-- **Dissertation:** *Research on Structured Light 3D Perception Method for Robot Intelligent Manufacturing*  
+MEng in **Electronic Science and Technology** – Shenzhen, China
+
+- Jointly trained at [Shenzhen Institutes of Advanced Technology (SIAT), Chinese Academy of Sciences](https://english.siat.ac.cn/)
+- **Dissertation:** *Research on Structured Light 3D Perception Method for Robot Intelligent Manufacturing*
 - **Supervisor:** [Prof. Zhan Song](https://people.ucas.edu.cn/~zsong?language=en)
 
 **[Southeast University (SEU)](https://www.seu.edu.cn/english/)**  
 *Sep. 2017 – Jun. 2021*  
 BEng in **Energy and Power Engineering** – Nanjing, China
-
 """
 
 

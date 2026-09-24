@@ -1,4 +1,8 @@
 [[news]]
+date = "2026-09"
+content = "Starting my PhD journey at the University of Manchester."
+
+[[news]]
 date = "2026-06"
 content = "Accepting my **PhD Offer in Electrical and Electronic Engineering** from the University of Manchester."
 
